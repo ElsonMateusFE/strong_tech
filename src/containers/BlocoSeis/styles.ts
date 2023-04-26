@@ -7,13 +7,18 @@ export const Bloco = styled.div`
   align-items: center;
   padding: 139px 0;
 
+  @media (min-width: 1921px) {
+    width: 1504px;
+    margin: auto;
+  }
+
   ${TituloEspecial} {
     font-size: 35px;
   }
 
   @media (max-width: 768px) {
     display: block;
-    margin: 3em auto;
+    margin: 3em auto 0;
     padding: 39px 0;
   }
 `
@@ -25,7 +30,7 @@ export const ContainerLegenda = styled.div`
 export const ContainerIconsSuporte = styled.ul`
   li {
     display: flex;
-    gap: 47px;
+    column-gap: 47px;
     margin-bottom: 50px;
 
     @media (max-width: 768px) {
@@ -47,7 +52,7 @@ export const ContainerIconsSuporte = styled.ul`
 
 export const LinhaDeDivisao = styled.div`
   border-bottom: 1px solid black;
-  margin-bottom: 46px;
+  margin-bottom: 33px;
 `
 
 export const TituloDosIcones = styled.h3`

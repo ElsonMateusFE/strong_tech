@@ -10,6 +10,5 @@ export const Paragrafo = styled.p<Props>`
     font-size: 17px;
   }
   color: ${(props) => (props.corParagrafo ? '#181818' : '#FFFFFF')};
-  margin-bottom: 6px;
   text-align: ${(props) => (props.textAlign ? 'center' : '')};
 `

@@ -21,8 +21,8 @@ export const Bloco = styled.div`
 
 export const Container = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding-top: 65px;
   column-gap: 96px;
 
@@ -35,7 +35,7 @@ export const Container = styled.div`
   }
 
   img {
-    width: 50%;
+    height: 50%;
 
     @media (max-width: 768px) {
       width: 100%;
