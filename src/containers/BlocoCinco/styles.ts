@@ -1,15 +1,16 @@
 import styled from 'styled-components'
 
 export const Bloco = styled.div`
-  background-color: #f4f4f4;
+  background: #f4f4f4;
 
   div {
     display: flex;
+    justify-content: center;
     column-gap: 45px;
     align-items: center;
 
     img {
-      width: 50%;
+      height: 100%;
 
       @media (max-width: 768px) {
         width: 100%;

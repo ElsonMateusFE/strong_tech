@@ -16,7 +16,12 @@ export const ContainerFooter = styled.div`
 
     div {
       display: flex;
+      justify-content: space-between;
       column-gap: 82px;
+
+      @media (max-width: 768px) {
+        display: inline-block;
+      }
 
       img {
         margin: auto;
@@ -27,6 +32,13 @@ export const ContainerFooter = styled.div`
 export const Info = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    row-gap: 40px;
+  }
 
   ul {
     font-family: Barlow;
@@ -63,6 +75,10 @@ export const Info = styled.div`
       height: 44px;
       margin-right: 17px;
       cursor: pointer;
+
+      @media (max-width: 768px) {
+        height: 28px;
+      }
     }
   }
 `
@@ -87,6 +103,10 @@ export const ContainerBio = styled.div`
     @media (min-width: 1921px) {
       font-size: 20px;
       line-height: 30px;
+    }
+
+    @media (max-width: 768px) {
+      text-align: center;
     }
   }
 `

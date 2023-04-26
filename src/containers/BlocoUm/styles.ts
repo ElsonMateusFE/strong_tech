@@ -5,8 +5,7 @@ export const Bloco = styled.div`
   padding: 92px 0;
 
   @media (max-width: 768px) {
-    margin-top: 50px;
-    padding-top: 2em;
+    padding: 2em 0;
   }
 
   div {
