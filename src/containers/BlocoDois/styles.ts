@@ -3,10 +3,9 @@ import { TituloEspecial } from '../../styles'
 
 export const Bloco = styled.div`
   max-width: 1871px;
-  height: 609px;
   align-items: center;
   margin: 0 auto;
-  padding-top: 62px;
+  padding: 62px 0;
 
   @media (max-width: 768px) {
     display: block;

@@ -5,7 +5,7 @@ export const Bloco = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 139px;
+  padding: 139px 0;
 
   ${TituloEspecial} {
     font-size: 35px;
@@ -13,8 +13,8 @@ export const Bloco = styled.div`
 
   @media (max-width: 768px) {
     display: block;
-    width: 100%;
     margin: 3em auto;
+    padding: 39px 0;
   }
 `
 
@@ -25,12 +25,11 @@ export const ContainerLegenda = styled.div`
 export const ContainerIconsSuporte = styled.ul`
   li {
     display: flex;
-    justify-content: space-between;
     gap: 47px;
     margin-bottom: 50px;
 
     @media (max-width: 768px) {
-      gap: 2em;
+      column-gap: 2em;
       margin: 3em auto;
     }
 

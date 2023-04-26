@@ -14,12 +14,12 @@ import BlocoDoze from '../../containers/BlocoDoze'
 const Home = () => (
   <>
     <BlocoUm />
-    {/* <BlocoDois />
+    <BlocoDois />
     <BlocoTres />
     <BlocoQuatro />
     <BlocoCinco />
     <BlocoSeis />
-    <BlocoSete />
+    {/* <BlocoSete />
     <BlocoOito />
     <BlocoNove />
     <BlocoDez />

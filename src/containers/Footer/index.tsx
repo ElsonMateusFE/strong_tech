@@ -3,7 +3,7 @@ import FooterSuperior from '../../components/FooterSuperior'
 
 const Footer = () => (
   <>
-    <FooterSuperior footerAjuste />
+    <FooterSuperior footerAjuste={false} />
     <FooterInferior />
   </>
 )

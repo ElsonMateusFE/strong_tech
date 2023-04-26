@@ -3,11 +3,6 @@ import styled from 'styled-components'
 export const Bloco = styled.div`
   display: block;
   background-color: #f4f4f4;
-  height: 609px;
-
-  @media (max-width: 768px) {
-    height: 100%;
-  }
 
   div {
     gap: 40px;
@@ -21,6 +16,14 @@ export const Bloco = styled.div`
   }
 
   img {
-    width: 100%;
+    width: 60%;
+
+    @media (min-width: 1921px) {
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 `
