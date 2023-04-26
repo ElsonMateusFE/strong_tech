@@ -1,24 +1,22 @@
 import styled from 'styled-components'
 
 export const Bloco = styled.section`
-  height: 609px;
-  padding: 169px 0;
-
-  @media (max-width: 768px) {
-    height: 100%;
-    padding: 45px 0;
-  }
+  padding: 76px 0;
 `
 
 export const Container = styled.div`
   flex-direction: row-reverse;
   display: flex;
+  column-gap: 69px;
   justify-content: space-between;
   align-items: center;
-  gap: 169px;
 
   @media (max-width: 768px) {
     display: block;
+  }
+
+  @media (min-width: 1921px) {
+    column-gap: 169px;
   }
 
   div {
@@ -26,7 +24,7 @@ export const Container = styled.div`
 
     ul {
       display: flex;
-      gap: 29px;
+      column-gap: 23px;
 
       @media (max-width: 768px) {
         display: block;
@@ -35,6 +33,14 @@ export const Container = styled.div`
   }
 
   img {
-    width: 100%;
+    width: 50%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    @media (min-width: 1921px) {
+      width: 100%;
+    }
   }
 `

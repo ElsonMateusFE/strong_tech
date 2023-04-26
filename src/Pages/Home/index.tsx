@@ -20,11 +20,11 @@ const Home = () => (
     <BlocoCinco />
     <BlocoSeis />
     <BlocoSete />
-    {/* <BlocoOito />
+    <BlocoOito />
     <BlocoNove />
     <BlocoDez />
     <BlocoOnce />
-    <BlocoDoze /> */}
+    <BlocoDoze />
   </>
 )
 

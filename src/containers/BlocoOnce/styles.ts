@@ -5,7 +5,7 @@ export const Bloco = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   text-align: center;
-  margin-bottom: 69px;
+  padding: 136px 0;
 
   @media (max-width: 768px) {
     display: block;

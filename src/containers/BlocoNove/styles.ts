@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Bloco = styled.section`
   display: flex;
-  heigth: 591px;
   align-items: center;
   background-color: #f9f9f9;
 
@@ -21,6 +20,14 @@ export const Bloco = styled.section`
   }
 
   img {
-    width: 100%;
+    width: 50%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    @media (min-width: 1921px) {
+      width: 100%;
+    }
   }
 `

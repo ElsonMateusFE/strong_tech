@@ -20,7 +20,7 @@ export const Bloco = styled.div`
   ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 38px;
+    gap: 42px;
 
     @media (max-width: 768px) {
       display: block;
@@ -35,8 +35,7 @@ export const Bloco = styled.div`
 
   section {
     display: block;
-    width: 774px;
-    height: 290px;
+    height: 300px;
     background-color: #ffffff;
     padding: 34px;
     border-radius: 10px;
