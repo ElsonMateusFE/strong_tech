@@ -15,7 +15,9 @@ export const OpcoesIcones = styled.ul`
   }
 
   @media (max-width: 768px) {
-    display: none;
+    display: flex;
+    white-space: nowrap;
+    overflow-x: scroll;
   }
 
   li {
