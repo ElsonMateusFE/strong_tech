@@ -3,14 +3,13 @@ import * as S from './styles'
 import completo from '../../assets/images/4 - Completo.png'
 import teclado from '../../assets/images/black-wireless-keyboard-white-surface 1.png'
 import Titulo from '../../components/Titulo'
+import TituloTag from '../../components/TituloTag'
 
 const BlocoOnce = () => (
   <div className="container">
     <S.Bloco>
       <div>
-        <Titulo corDeTitulo fontSize={25} fontWeight>
-          Monitor
-        </Titulo>
+        <TituloTag corDeTitulo>Monitor</TituloTag>
         <Titulo fontSize={25}>Monitores de auta Definição</Titulo>
         <Paragrafo corParagrafo>
           Conheça nossos Monitores com mais demanda de procura,
@@ -21,9 +20,7 @@ const BlocoOnce = () => (
       </div>
       <S.LinhaVertical />
       <S.ImagemTeclado>
-        <Titulo corDeTitulo fontSize={25} fontWeight>
-          Periféricos
-        </Titulo>
+        <TituloTag corDeTitulo>Periféricos</TituloTag>
         <Titulo fontSize={25}>Nossos Perifericos</Titulo>
         <Paragrafo corParagrafo>
           Conheça agora os perifericos mais procurados pelos usuários e tenha a

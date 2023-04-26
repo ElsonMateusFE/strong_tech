@@ -2,6 +2,7 @@ import computador from '../../assets/images/banner topo teste 2 JPG 1.png'
 import { Botao } from '../../components/Botao'
 import { Paragrafo } from '../../components/Paragrafo'
 import Titulo from '../../components/Titulo'
+import TituloTag from '../../components/TituloTag'
 import { Bloco } from './styles'
 
 const BlocoNove = () => (
@@ -9,9 +10,7 @@ const BlocoNove = () => (
     <img src={computador} alt="" />
     <div className="container">
       <main>
-        <Titulo corDeTitulo fontWeight fontSize={25}>
-          All in One
-        </Titulo>
+        <TituloTag corDeTitulo>All in One</TituloTag>
         <Titulo fontSize={30}>
           A combinação perfeita de estética e velocidade
         </Titulo>

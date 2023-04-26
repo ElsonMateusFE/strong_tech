@@ -3,15 +3,14 @@ import { Paragrafo } from '../../components/Paragrafo'
 import computadores from '../../assets/images/banner all in one 1.png'
 import Titulo from '../../components/Titulo'
 import { Bloco } from './styles'
+import TituloTag from '../../components/TituloTag'
 
 const BlocoTres = () => (
   <Bloco>
     <div className="container">
       <img src={computadores} alt="" />
       <main>
-        <Titulo fontSize={30} corDeTitulo fontWeight>
-          All In One
-        </Titulo>
+        <TituloTag corDeTitulo>All In One</TituloTag>
         <Titulo>Tecnologia e Design</Titulo>
         <Paragrafo corParagrafo>
           Os All in One Strong Tech são a escolha perfeita para quem busca a

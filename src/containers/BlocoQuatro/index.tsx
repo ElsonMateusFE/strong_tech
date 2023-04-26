@@ -3,15 +3,14 @@ import { Paragrafo } from '../../components/Paragrafo'
 import completo from '../../assets/images/4 - Completo-2.png'
 import Titulo from '../../components/Titulo'
 import { Bloco } from './styles'
+import TituloTag from '../../components/TituloTag'
 
 const BlocoQuatro = () => (
   <Bloco>
     <div className="container">
       <img src={completo} alt="" />
       <main>
-        <Titulo fontSize={25} corDeTitulo fontWeight>
-          Linha Desktop
-        </Titulo>
+        <TituloTag corDeTitulo>Linha Desktop</TituloTag>
         <Titulo>Desempenho e Versatilidade</Titulo>
         <Paragrafo corParagrafo>
           A linha Desktop Strong Tech foi desenvolvida para atender às mais

@@ -4,6 +4,7 @@ import { Paragrafo } from '../../components/Paragrafo'
 import { Botao } from '../../components/Botao'
 import notebook from '../../assets/images/Group 115.png'
 import Titulo from '../../components/Titulo'
+import TituloTag from '../../components/TituloTag'
 
 const BlocoSete = () => (
   <S.Bloco>
@@ -28,9 +29,7 @@ const BlocoSete = () => (
       <S.Container>
         <img src={notebook} alt="" />
         <div>
-          <Titulo corDeTitulo fontWeight fontSize={25}>
-            Notebook
-          </Titulo>
+          <TituloTag corDeTitulo>Notebook</TituloTag>
           <Titulo fontSize={30}>Confira nossos Notebooks Strong Tech</Titulo>
           <Paragrafo corParagrafo>
             Tecnologia de ponta para atender suas necessidades diárias, desde o

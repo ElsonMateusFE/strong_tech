@@ -3,6 +3,7 @@ import { Paragrafo } from '../../components/Paragrafo'
 import computador from '../../assets/images/Group 66.png'
 import Titulo from '../../components/Titulo'
 import { Bloco, Container } from './styles'
+import TituloTag from '../../components/TituloTag'
 
 const BlocoOito = () => (
   <Bloco>
@@ -10,9 +11,7 @@ const BlocoOito = () => (
       <Container>
         <img src={computador} alt="" />
         <div>
-          <Titulo fontSize={25} corDeTitulo fontWeight>
-            Linha Corporativa
-          </Titulo>
+          <TituloTag corDeTitulo>Linha Corporativa</TituloTag>
           <Titulo>Sua Empresa nunca mais sera a mesma</Titulo>
           <Paragrafo corParagrafo>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

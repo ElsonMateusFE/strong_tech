@@ -4,6 +4,7 @@ import { Paragrafo } from '../../components/Paragrafo'
 import { Botao, BotaoSecundario } from '../../components/Botao'
 import nuc from '../../assets/images/Group 54.png'
 import Titulo from '../../components/Titulo'
+import TituloTag from '../../components/TituloTag'
 
 const BlocoSete = () => (
   <S.Bloco>
@@ -19,9 +20,7 @@ const BlocoSete = () => (
       <S.Container>
         <img src={nuc} alt="" />
         <div>
-          <Titulo corDeTitulo fontWeight fontSize={25}>
-            Mini PC NUC
-          </Titulo>
+          <TituloTag corDeTitulo>Mini PC NUC</TituloTag>
           <Titulo fontSize={30}>Dê um Upgrade no Seu Espaço</Titulo>
           <Paragrafo corParagrafo>
             A linha de Mini PC Nuc da Strong Tech é a escolha ideal para quem

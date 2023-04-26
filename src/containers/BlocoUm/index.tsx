@@ -3,15 +3,14 @@ import { Paragrafo } from '../../components/Paragrafo'
 import Titulo from '../../components/Titulo'
 import { Bloco } from './styles'
 import computador from '../../assets/images/teste-topo-2 1.png'
+import TituloTag from '../../components/TituloTag'
 
 const BlocoUm = () => (
   <Bloco>
     <div className="container">
       <img src={computador} alt="" />
       <main>
-        <Titulo fontWeight fontSize={25}>
-          DOMINANDO O MUNDO DA TECNOLOGIA
-        </Titulo>
+        <TituloTag>DOMINANDO O MUNDO DA TECNOLOGIA</TituloTag>
         <Titulo>Design e Desempenho Superiores.</Titulo>
         <Paragrafo corParagrafo>
           Os produtos Strong Tech foram desenvolvidos com um design inovador e

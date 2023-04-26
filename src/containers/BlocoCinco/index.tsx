@@ -3,15 +3,14 @@ import { Paragrafo } from '../../components/Paragrafo'
 import group from '../../assets/images/Group 53.png'
 import { Bloco } from './styles'
 import Titulo from '../../components/Titulo'
+import TituloTag from '../../components/TituloTag'
 
 const BlocoCinco = () => (
   <Bloco>
     <div className="container">
       <img src={group} alt="" />
       <main>
-        <Titulo fontWeight fontSize={25} corDeTitulo>
-          Linha Gamer
-        </Titulo>
+        <TituloTag corDeTitulo>Linha Gamer</TituloTag>
         <Titulo>Eleve Seus Jogos</Titulo>
         <Paragrafo corParagrafo>
           A linha Gamer Strong Tech foi desenvolvida especialmente para os
