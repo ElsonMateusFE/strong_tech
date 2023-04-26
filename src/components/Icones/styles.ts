@@ -24,6 +24,10 @@ export const OpcoesIcones = styled.ul`
     display: block;
     margin: 0 auto;
 
+    img {
+      height: 100%;
+    }
+
     p {
       font-family: Barlow;
       font-weight: 600;

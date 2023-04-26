@@ -3,14 +3,11 @@ import { TituloEspecial } from '../../styles'
 
 export const Bloco = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 250px;
   align-items: center;
-  padding: 139px 0;
-
-  @media (min-width: 1921px) {
-    width: 1504px;
-    margin: auto;
-  }
+  padding-top: 139px;
+  padding-bottom: 103px;
 
   ${TituloEspecial} {
     font-size: 35px;

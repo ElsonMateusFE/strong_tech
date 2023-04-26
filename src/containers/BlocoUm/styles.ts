@@ -12,6 +12,7 @@ export const Bloco = styled.div`
   div {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
     column-gap: 41px;
     align-items: center;
 

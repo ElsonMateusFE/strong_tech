@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Bloco = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   padding: 136px 0;
 

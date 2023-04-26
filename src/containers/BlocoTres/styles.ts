@@ -5,8 +5,9 @@ export const Bloco = styled.div`
   background-color: #f4f4f4;
 
   div {
-    gap: 40px;
+    column-gap: 40px;
     display: flex;
+    justify-content: center;
     padding: 31px 0;
     align-items: center;
 

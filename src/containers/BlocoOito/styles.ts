@@ -7,8 +7,8 @@ export const Bloco = styled.section`
 export const Container = styled.div`
   flex-direction: row-reverse;
   display: flex;
-  column-gap: 69px;
-  justify-content: space-between;
+  column-gap: 100px;
+  justify-content: center;
   align-items: center;
 
   @media (max-width: 768px) {
@@ -16,7 +16,7 @@ export const Container = styled.div`
   }
 
   @media (min-width: 1921px) {
-    column-gap: 169px;
+    column-gap: 330px;
   }
 
   div {

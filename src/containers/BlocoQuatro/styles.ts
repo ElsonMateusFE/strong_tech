@@ -3,9 +3,9 @@ import styled from 'styled-components'
 export const Bloco = styled.section`
   div {
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
-    column-gap: 50px;
+    column-gap: 259px;
     align-items: center;
     padding: 52px 0;
 
