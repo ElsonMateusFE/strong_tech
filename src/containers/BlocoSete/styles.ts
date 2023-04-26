@@ -2,32 +2,30 @@ import styled from 'styled-components'
 import { TituloEspecial } from '../../styles'
 
 export const Bloco = styled.div`
-  height: 788px;
   background-color: #f4f4f4;
   padding: 55px 0;
-
-  @media (max-width: 768px) {
-    height: 100%;
-  }
 
   ${TituloEspecial} {
     font-size: 35px;
   }
 
+  main {
+    display: flex;
+  }
+
   ul {
     display: flex;
-    width: 618px;
+    column-gap: 90px;
     margin: 28px auto;
-    gap: 90px;
 
     @media (max-width: 768px) {
-      margin: 12px auto;
       display: block;
-      width: 100%;
       text-align: center;
     }
 
     li {
+      text-align: center;
+
       a {
         text-decoration: none;
         font-size: 17px;
@@ -36,7 +34,7 @@ export const Bloco = styled.div`
       }
 
       @media (max-width: 768px) {
-        padding: 10px;
+        padding: 10px 0;
       }
     }
   }
@@ -46,11 +44,13 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 172px;
 
   @media (max-width: 768px) {
     display: block;
-    margin-top: 30px;
+  }
+
+  @media (min-width: 1921px) {
+    column-gap: 200px;
   }
 
   img {

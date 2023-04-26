@@ -19,8 +19,8 @@ const Home = () => (
     <BlocoQuatro />
     <BlocoCinco />
     <BlocoSeis />
-    {/* <BlocoSete />
-    <BlocoOito />
+    <BlocoSete />
+    {/* <BlocoOito />
     <BlocoNove />
     <BlocoDez />
     <BlocoOnce />

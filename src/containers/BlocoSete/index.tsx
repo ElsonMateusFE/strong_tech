@@ -14,14 +14,16 @@ const BlocoSete = () => (
       Fabricações e distribuição de nossos produtos com alta tecnologia e
       inovação no mercado com máxima segurança.
     </Paragrafo>
-    <ul>
-      <li>
-        <a href="#">Sobre os processos de fabricação</a>
-      </li>
-      <li>
-        <a href="#">Sobre os processos de distribuição</a>
-      </li>
-    </ul>
+    <main>
+      <ul>
+        <li>
+          <a href="#">Sobre os processos de fabricação</a>
+        </li>
+        <li>
+          <a href="#">Sobre os processos de distribuição</a>
+        </li>
+      </ul>
+    </main>
     <div className="container">
       <S.Container>
         <img src={notebook} alt="" />
