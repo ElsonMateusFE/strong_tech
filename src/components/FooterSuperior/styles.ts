@@ -5,6 +5,10 @@ export const ContainerFooter = styled.div`
   color: white;
   padding-top: 63px;
 
+  @media (max-width: 768px) {
+    display: none;
+  }
+
   aside {
     max-width: 70%;
     margin: auto;
@@ -107,6 +111,11 @@ export const ContainerBio = styled.div`
 
     @media (max-width: 768px) {
       text-align: center;
+      display: none;
+
+      img {
+        background-color: green;
+      }
     }
   }
 `

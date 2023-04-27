@@ -5,6 +5,10 @@ export const ContainerFooter = styled.div`
   color: white;
   padding-bottom: 30px;
 
+  @media (min-width: 768px) {
+    display: none;
+  }
+
   aside {
     p {
       text-align: center;

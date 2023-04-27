@@ -11,6 +11,7 @@ export const HeaderBar = styled.div`
     padding: 32px 0;
 
     @media (max-width: 768px) {
+      display: block;
       padding: 10px 0;
     }
 
