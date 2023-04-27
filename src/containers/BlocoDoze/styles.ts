@@ -5,6 +5,14 @@ export const Bloco = styled.div`
   background-color: #f7f7f7;
   padding: 119px 0;
 
+  div {
+    max-width: 1350px;
+
+    @media (min-width: 1921px) {
+      max-width: 1736px;
+    }
+  }
+
   @media (max-width: 768px) {
     padding: 50px 0;
 
@@ -34,12 +42,16 @@ export const Bloco = styled.div`
   }
 
   section {
+    position: relative;
+    height: 290px;
     display: block;
-    height: 300px;
     background-color: #ffffff;
-    padding: 34px;
     border-radius: 10px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 11px;
+    padding-top: 34px;
+    padding-left: 36px;
+    padding-right: 36px;
 
     @media (max-width: 768px) {
       width: 290px;
@@ -47,19 +59,39 @@ export const Bloco = styled.div`
       height: 100%;
     }
 
+    @media (min-width: 1921px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 360px) {
+      width: 250px;
+    }
+
     img {
       height: 100%;
+
+      @media (max-width: 360px) {
+        width: 100%;
+      }
     }
 
     a {
+      position: absolute;
       text-decoration: none;
       color: #1241af;
       font-size: 18px;
       font-weight: 600;
-      display: block;
+      line-height: 53px;
+      bottom: 0;
 
       @media (max-width: 768px) {
         margin-top: 1em;
+        position: relative;
+      }
+
+      @media (min-width: 1921px) {
+        font-size: 20px;
+        margin-top: 11px;
       }
     }
 
@@ -71,17 +103,11 @@ export const Bloco = styled.div`
 
     div {
       display: flex;
+      column-gap: 20px;
+      row-gap: 10px;
 
       @media (max-width: 768px) {
         display: block;
-      }
-
-      main {
-        margin-left: 20px;
-
-        @media (max-width: 768px) {
-          margin: 20px 0;
-        }
       }
     }
   }

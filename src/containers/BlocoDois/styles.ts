@@ -1,9 +1,8 @@
 import styled from 'styled-components'
 import { TituloEspecial } from '../../styles'
+import { Paragrafo } from '../../components/Paragrafo/styles'
 
 export const Bloco = styled.div`
-  max-width: 1871px;
-  align-items: center;
   margin: 0 auto;
   padding: 62px 0;
 
@@ -34,39 +33,50 @@ export const ContainerDeExplore = styled.ul`
   }
 
   li {
+    max-height: 384.5px;
     position: relative;
-  }
 
-  img {
-    width: 100%;
-  }
-`
+    @media (min-width: 1921px) {
+      max-height: 490px;
+    }
 
-export const TituloPrimario = styled.h3`
-  font-weight: 400;
-  font-size: 40px;
-  text-align: center;
-  margin: 50px 0;
+    @media (max-width: 768px) {
+      max-height: 312px;
+      margin-top: 0.6em;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 `
 
 export const TituloSecundario = styled.h3`
   font-weight: 500;
   font-size: 30px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `
 
 export const ContainerDeLegenda = styled.div`
+  position: absolute;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   padding: 10px 40px;
-  position: absolute;
-  max-width: 100%;
   bottom: 0;
-  gap: 10px;
   left: 0;
-  opacity: 0;
-  transition: all ease 0.5s;
 
-  &:hover {
-    opacity: 1;
+  ${TituloSecundario} {
+    padding: 10px 0;
+  }
+
+  ${Paragrafo} {
+    padding-bottom: 10px;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
 `
