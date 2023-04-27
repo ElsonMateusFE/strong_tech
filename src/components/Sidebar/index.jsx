@@ -1,4 +1,4 @@
-import { Container, Content, Opcao } from './styles'
+import { Container, Content, Opcao, Redes } from './styles'
 import { FaTimes } from 'react-icons/fa'
 import facebook from '../../assets/images/face.png'
 import instagram from '../../assets/images/Vector (1).png'
@@ -33,13 +33,13 @@ const Sidebar = ({ active }) => {
             <a href="#">Contato</a>
           </li>
         </Opcao>
-        <section>
+        <Redes>
           <ul>
             <img src={facebook} alt="Facebook" />
             <img src={instagram} alt="Instagram" />
             <img src={whatsapp} alt="Whatsapp" />
           </ul>
-        </section>
+        </Redes>
       </Content>
     </Container>
   )

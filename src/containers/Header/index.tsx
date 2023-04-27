@@ -10,8 +10,8 @@ const Header = () => {
       <HeaderBar>
         <div className="container">
           <img src={logo} alt="" />
-          <Menu />
           <MenuMobile />
+          <Menu />
         </div>
       </HeaderBar>
       <Icones />

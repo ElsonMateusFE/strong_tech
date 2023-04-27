@@ -15,12 +15,11 @@ export const Container = styled.div<Props>`
   animation: showSidebar 0.4s;
 
   > svg {
-    position: fixed;
+    position: absolute;
     color: white;
-    width: 30px;
     height: 30px;
-    margin-top: 32px;
-    margin-left: 32px;
+    top: 30px;
+    right: 30px;
     cursor: pointer;
   }
 
@@ -37,29 +36,25 @@ export const Container = styled.div<Props>`
 `
 
 export const Content = styled.div`
-  margin-top: 100px;
+  margin-top: 80px;
+`
 
-  section {
-    margin-top: 30px;
+export const Redes = styled.section`
+  margin-top: 10px;
 
-    ul {
-      display: flex;
-
-      img {
-        height: 30px;
-      }
-    }
+  ul {
+    display: flex;
   }
 `
 
 export const Opcao = styled.nav`
   a {
     display: block;
-    border-top: 1px solid white;
+    border-top: 0.1px solid white;
     color: white;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
-    padding: 14px 20px;
+    padding: 20px 20px;
   }
 `
