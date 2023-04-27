@@ -41,8 +41,12 @@ export const ContainerDeExplore = styled.ul`
     }
 
     @media (max-width: 768px) {
-      max-height: 312px;
+      max-height: 312.5px;
       margin-top: 0.6em;
+    }
+
+    @media (max-width: 360px) {
+      max-height: 272px;
     }
 
     img {
@@ -67,6 +71,10 @@ export const ContainerDeLegenda = styled.div`
   padding: 10px 40px;
   bottom: 0;
   left: 0;
+
+  @media (max-width: 768px) {
+    padding: 5px 20px;
+  }
 
   ${TituloSecundario} {
     padding: 10px 0;

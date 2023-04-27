@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Bloco = styled.div`
-  background: #f4f4f4;
+  background-image: linear-gradient(to right, white 50%, #f4f4f4 50%);
 
   div {
     display: flex;
