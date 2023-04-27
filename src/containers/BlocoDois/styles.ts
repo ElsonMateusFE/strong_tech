@@ -56,7 +56,7 @@ export const TituloSecundario = styled.h3`
   font-size: 30px;
 
   @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 24px;
   }
 `
 
@@ -76,7 +76,7 @@ export const ContainerDeLegenda = styled.div`
     padding-bottom: 10px;
 
     @media (max-width: 768px) {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 `
