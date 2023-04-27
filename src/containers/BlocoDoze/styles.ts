@@ -53,9 +53,15 @@ export const Bloco = styled.div`
     padding-left: 36px;
     padding-right: 36px;
 
+    main {
+      @media (max-width: 768px) {
+        margin-top: 10px;
+      }
+    }
+
     @media (max-width: 768px) {
       width: 290px;
-      margin: auto;
+      margin: 0 auto;
       height: 100%;
     }
 

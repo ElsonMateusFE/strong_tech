@@ -9,6 +9,7 @@ export const Bloco = styled.div`
 
   @media (max-width: 768px) {
     background: #f4f4f4;
+    padding-bottom: 10px;
   }
 
   div {
