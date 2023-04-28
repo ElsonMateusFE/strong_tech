@@ -15,7 +15,7 @@ export const ContainerFooter = styled.div`
       font-size: 12px;
     }
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       font-size: 20px;
     }
   }

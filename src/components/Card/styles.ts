@@ -24,7 +24,7 @@ export const Container = styled.section`
     height: 100%;
   }
 
-  @media (min-width: 1921px) {
+  @media (min-width: 1920px) {
     font-size: 20px;
   }
 
@@ -54,7 +54,7 @@ export const Container = styled.section`
       position: relative;
     }
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       font-size: 20px;
       margin-top: 11px;
     }

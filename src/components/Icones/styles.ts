@@ -10,7 +10,7 @@ export const OpcoesIcones = styled.ul`
   align-items: center;
   margin: auto;
 
-  @media (min-width: 1921px) {
+  @media (min-width: 1920px) {
     max-width: 1297px;
   }
 

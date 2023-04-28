@@ -14,7 +14,7 @@ export const ContainerFooter = styled.div`
     margin: auto;
     padding: 71px;
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       max-width: 60%;
     }
 
@@ -53,7 +53,7 @@ export const Info = styled.div`
       font-size: 20px;
       margin-bottom: 1.2em;
 
-      @media (min-width: 1921px) {
+      @media (min-width: 1920px) {
         font-size: 25px;
       }
     }
@@ -69,7 +69,7 @@ export const Info = styled.div`
       cursor: pointer;
       line-height: 28px;
 
-      @media (min-width: 1921px) {
+      @media (min-width: 1920px) {
         font-size: 17px;
         line-height: 28px;
       }
@@ -104,7 +104,7 @@ export const ContainerBio = styled.div`
     line-height: 25px;
     text-align: justify;
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920x) {
       font-size: 20px;
       line-height: 30px;
     }
