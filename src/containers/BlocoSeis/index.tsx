@@ -33,7 +33,7 @@ const BlocoSeis = () => (
           <div>
             <S.TituloDosIcones>Conheça nossa Loja Online</S.TituloDosIcones>
             <Paragrafo corParagrafo>
-              Estamos prontos para tirar qualquer dúvida que você possa ter.
+              Explore nossos produtos em nossa loja online.
             </Paragrafo>
           </div>
         </li>
@@ -43,7 +43,7 @@ const BlocoSeis = () => (
           <div>
             <S.TituloDosIcones>Termos, Condições e Garantia</S.TituloDosIcones>
             <Paragrafo corParagrafo>
-              Estamos prontos para tirar qualquer dúvida que você possa ter.
+              Verifique nossas condições, termos e a garantia da sua compra.
             </Paragrafo>
           </div>
         </li>
@@ -53,7 +53,7 @@ const BlocoSeis = () => (
           <div>
             <S.TituloDosIcones>Entre em Contato</S.TituloDosIcones>
             <Paragrafo corParagrafo>
-              Estamos prontos para tirar qualquer dúvida que você possa ter.
+              Converse com nosso time técnico sobre seu produto.
             </Paragrafo>
           </div>
         </li>

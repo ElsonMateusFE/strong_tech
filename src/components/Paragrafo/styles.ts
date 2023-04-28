@@ -8,7 +8,7 @@ export const Paragrafo = styled.p<Props>`
     font-size: 18px;
   }
   @media (max-width: 768px) {
-    font-size: 16.5px;
+    font-size: 16px;
   }
 
   color: ${(props) => (props.corParagrafo ? '#181818' : '#FFFFFF')};

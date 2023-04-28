@@ -37,11 +37,9 @@ export const Info = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 768px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    row-gap: 40px;
+  @media (min-width: 1920px) {
+    max-width: 1550px;
+    margin: auto;
   }
 
   ul {

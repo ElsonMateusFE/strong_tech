@@ -10,7 +10,7 @@ export const Bloco = styled.div`
   padding-bottom: 103px;
 
   ${TituloEspecial} {
-    font-size: 35px;
+    font-size: 50px;
   }
 
   @media (max-width: 768px) {
@@ -27,7 +27,6 @@ export const ContainerIconsSuporte = styled.ul`
   li {
     display: flex;
     column-gap: 27px;
-    margin-bottom: 50px;
 
     @media (max-width: 768px) {
       row-gap: 2em;
@@ -49,7 +48,7 @@ export const ContainerIconsSuporte = styled.ul`
 
 export const LinhaDeDivisao = styled.div`
   border-bottom: 1px solid black;
-  margin-bottom: 33px;
+  margin: 27px 0;
 `
 
 export const TituloDosIcones = styled.h3`

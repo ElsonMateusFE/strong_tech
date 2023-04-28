@@ -16,7 +16,8 @@ export const Container = styled.div`
   }
 
   @media (min-width: 1920px) {
-    column-gap: 330px;
+    column-gap: 169px;
+    padding: 90px 0;
   }
 
   div {
