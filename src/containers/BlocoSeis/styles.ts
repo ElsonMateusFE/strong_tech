@@ -10,7 +10,11 @@ export const Bloco = styled.div`
   padding-bottom: 103px;
 
   ${TituloEspecial} {
-    font-size: 50px;
+    font-size: 40px;
+
+    @media (min-width: 1920px) {
+      font-size: 50px;
+    }
   }
 
   @media (max-width: 768px) {
