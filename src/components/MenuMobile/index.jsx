@@ -9,7 +9,7 @@ const MenuMobile = () => {
   const showSiderbar = () => setSidebar(!sidebar)
 
   useEffect(() => {
-    document.body.style.overflowY = showSiderbar ? 'hidden' : 'auto'
+    document.body.style.overflowY = sidebar ? 'hidden' : 'auto'
   })
 
   return (
