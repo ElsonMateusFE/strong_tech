@@ -21,7 +21,7 @@ const EstiloGlobal = createGlobalStyle`
     width: 100%;
     margin: 0 auto;
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       max-width: 1722px;
     }
 
