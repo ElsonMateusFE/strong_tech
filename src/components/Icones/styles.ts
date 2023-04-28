@@ -29,7 +29,7 @@ export const OpcoesIcones = styled.ul`
       height: 100%;
 
       @media (max-width: 768px) {
-        width: 34px;
+        width: 36px;
       }
     }
 
@@ -49,7 +49,7 @@ export const Computadores = styled.div`
   margin-top: 5px;
 
   @media (max-width: 768px) {
-    margin-top: 0;
+    margin-top: 0px;
   }
 `
 
@@ -57,7 +57,7 @@ export const Cpu = styled.div`
   margin-top: 10px;
 
   @media (max-width: 768px) {
-    margin-top: 0;
+    margin-top: 0px;
   }
 `
 
@@ -65,7 +65,7 @@ export const Gamer = styled.div`
   margin-top: 8px;
 
   @media (max-width: 768px) {
-    margin-top: 0;
+    margin-top: 0px;
   }
 `
 
@@ -73,7 +73,7 @@ export const AllInOne = styled.div`
   margin-top: 17px;
 
   @media (max-width: 768px) {
-    margin-top: 0;
+    margin-top: 0px;
   }
 `
 export const Pc = styled.div`

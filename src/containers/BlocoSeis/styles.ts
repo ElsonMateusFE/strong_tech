@@ -39,6 +39,7 @@ export const ContainerIconsSuporte = styled.ul`
 
       @media (max-width: 768px) {
         display: block;
+        height: 35px;
         margin: auto;
         text-align: center;
       }
