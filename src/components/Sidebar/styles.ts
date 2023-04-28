@@ -49,7 +49,7 @@ export const Opcao = styled.nav`
     font-weight: 500;
     padding: 20px 20px;
 
-    &:hover {
+    &:active {
       border-left: 5px solid red;
     }
   }
