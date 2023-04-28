@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { Container, Content, Opcao } from './styles'
 import { FaTimes } from 'react-icons/fa'
 
@@ -6,10 +5,6 @@ const Sidebar = ({ active }) => {
   const closeSidebar = () => {
     active(false)
   }
-
-  useEffect(() => {
-    document.body.style.overflowY = closeSidebar ? 'hidden' : 'auto'
-  })
 
   return (
     <Container sidebar={active}>
