@@ -12,7 +12,7 @@ export const Container = styled.div<Props>`
   left: 0px;
   width: 300px;
   left: ${(props) => (props.sidebar ? '0' : '-100%')};
-  animation: showSidebar 0.4s;
+  animation: showSidebar 0.2s;
 
   > svg {
     position: absolute;

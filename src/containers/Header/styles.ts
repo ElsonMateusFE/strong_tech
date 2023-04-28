@@ -11,7 +11,7 @@ export const HeaderBar = styled.div`
     padding: 32px 0;
 
     @media (max-width: 768px) {
-      padding: 10px 0;
+      padding: 5px 0;
       display: block;
     }
 
@@ -20,6 +20,7 @@ export const HeaderBar = styled.div`
 
       @media (max-width: 768px) {
         margin: auto;
+        height: 60px;
       }
     }
   }
