@@ -26,11 +26,11 @@ export const ContainerLegenda = styled.div`
 export const ContainerIconsSuporte = styled.ul`
   li {
     display: flex;
-    column-gap: 47px;
+    column-gap: 27px;
     margin-bottom: 50px;
 
     @media (max-width: 768px) {
-      column-gap: 2em;
+      row-gap: 2em;
       margin: 3em auto;
     }
 
@@ -39,7 +39,7 @@ export const ContainerIconsSuporte = styled.ul`
 
       @media (max-width: 768px) {
         display: block;
-        height: 35px;
+        width: 42px;
         margin: auto;
         text-align: center;
       }
