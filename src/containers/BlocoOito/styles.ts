@@ -15,7 +15,7 @@ export const Container = styled.div`
     display: block;
   }
 
-  @media (min-width: 1921px) {
+  @media (min-width: 1920px) {
     column-gap: 330px;
   }
 
@@ -39,7 +39,7 @@ export const Container = styled.div`
       width: 100%;
     }
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       width: 100%;
     }
   }

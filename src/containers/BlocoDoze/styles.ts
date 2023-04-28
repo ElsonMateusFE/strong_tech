@@ -8,7 +8,7 @@ export const Bloco = styled.div`
   div {
     max-width: 1350px;
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       max-width: 1736px;
     }
   }
@@ -65,7 +65,7 @@ export const Bloco = styled.div`
       height: 100%;
     }
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       font-size: 20px;
     }
 
@@ -95,7 +95,7 @@ export const Bloco = styled.div`
         position: relative;
       }
 
-      @media (min-width: 1921px) {
+      @media (min-width: 1920px) {
         font-size: 20px;
         margin-top: 11px;
       }

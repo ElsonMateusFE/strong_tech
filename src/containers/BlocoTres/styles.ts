@@ -19,7 +19,7 @@ export const Bloco = styled.div`
   img {
     width: 60%;
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       width: 100%;
     }
 

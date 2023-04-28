@@ -19,7 +19,7 @@ export const Bloco = styled.div`
     column-gap: 45px;
     align-items: center;
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       max-width: 1850px;
     }
 
@@ -30,7 +30,7 @@ export const Bloco = styled.div`
         width: 100%;
       }
 
-      @media (min-width: 1921px) {
+      @media (min-width: 1920px) {
         width: 100%;
       }
     }

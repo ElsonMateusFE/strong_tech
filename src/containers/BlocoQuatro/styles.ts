@@ -14,7 +14,7 @@ export const Bloco = styled.section`
       padding: 32px 0;
     }
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       column-gap: 289px;
     }
 
@@ -34,7 +34,7 @@ export const Bloco = styled.section`
     img {
       width: 40%;
 
-      @media (min-width: 1921px) {
+      @media (min-width: 1920px) {
         width: 100%;
       }
 

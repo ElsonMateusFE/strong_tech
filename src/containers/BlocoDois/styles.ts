@@ -36,7 +36,7 @@ export const ContainerDeExplore = styled.ul`
     max-height: 384.5px;
     position: relative;
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       max-height: 490px;
     }
 

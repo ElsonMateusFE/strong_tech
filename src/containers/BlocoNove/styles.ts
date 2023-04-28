@@ -26,7 +26,7 @@ export const Bloco = styled.section`
       width: 100%;
     }
 
-    @media (min-width: 1921px) {
+    @media (min-width: 1920px) {
       width: 100%;
     }
   }
