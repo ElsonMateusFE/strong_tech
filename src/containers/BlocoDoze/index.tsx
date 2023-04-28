@@ -1,5 +1,5 @@
-import bloco1 from '../../assets/images/Rectangle 13.png'
 import { Paragrafo } from '../../components/Paragrafo'
+import bloco1 from '../../assets/images/Rectangle 13.png'
 import bloco2 from '../../assets/images/Rectangle 15.png'
 import bloco3 from '../../assets/images/Rectangle 47.png'
 import bloco4 from '../../assets/images/Rectangle 46.png'

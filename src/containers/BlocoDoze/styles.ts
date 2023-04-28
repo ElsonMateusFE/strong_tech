@@ -43,7 +43,7 @@ export const Bloco = styled.div`
 
   section {
     position: relative;
-    height: 290px;
+    min-height: 290px;
     display: block;
     background-color: #ffffff;
     border-radius: 10px;
