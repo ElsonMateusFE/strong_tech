@@ -18,6 +18,7 @@ export const OpcoesIcones = styled.ul`
     display: flex;
     white-space: nowrap;
     overflow-x: scroll;
+    padding: 14px 0;
   }
 
   li {
@@ -26,6 +27,10 @@ export const OpcoesIcones = styled.ul`
 
     img {
       height: 100%;
+
+      @media (max-width: 768px) {
+        width: 34px;
+      }
     }
 
     p {
@@ -33,31 +38,63 @@ export const OpcoesIcones = styled.ul`
       font-weight: 600;
       font-size: 20px;
       color: ${cores.verdeEscuro};
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
     }
   }
 `
 export const Computadores = styled.div`
   margin-top: 5px;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
 `
 
 export const Cpu = styled.div`
   margin-top: 10px;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
 `
 
 export const Gamer = styled.div`
   margin-top: 8px;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
 `
 
 export const AllInOne = styled.div`
   margin-top: 17px;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
 `
 export const Pc = styled.div`
   margin-top: 5px;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
 `
 export const Monitores = styled.div`
   margin-top: 6px;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
 `
 
 export const Perifericos = styled.div`
   margin-top: 9px;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
 `
