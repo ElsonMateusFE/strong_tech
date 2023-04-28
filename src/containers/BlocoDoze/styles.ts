@@ -56,6 +56,7 @@ export const Bloco = styled.div`
     main {
       @media (max-width: 768px) {
         margin-top: 10px;
+        position: 0;
       }
     }
 

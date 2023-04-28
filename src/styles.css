@@ -1,5 +1,5 @@
 div {
-  box-shadow: 2px 2px 20px rgb(150, 122, 122);
-  color: #3b4b6c;
+  color: rgb(233, 219, 219);
   animation: showSidebar 0.5s;
+  position: unset;
 }

@@ -3,16 +3,15 @@ import styled from 'styled-components'
 export const Container = styled.div`
   > svg {
     position: absolute;
-    top: 30px;
+    top: 33px;
     left: 16px;
-    color: #1a202c;
-    height: 27px;
-    width: 27px;
+    color: rgb(233, 219, 219);
+    height: 22px;
+    width: 22px;
     cursor: pointer;
 
     &:hover {
-      color: #3b4b6c;
-      // rgb(150, 122, 122)
+      color: white;
     }
 
     @media (min-width: 768px) {
