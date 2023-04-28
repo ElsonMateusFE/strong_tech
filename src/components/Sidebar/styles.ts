@@ -5,7 +5,8 @@ type Props = {
 }
 
 export const Container = styled.div<Props>`
-  background-color: #141414;
+  background-color: white;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.219);
   position: fixed;
   height: 100%;
   top: 0px;
@@ -16,7 +17,7 @@ export const Container = styled.div<Props>`
 
   > svg {
     position: absolute;
-    color: white;
+    color: #141414;
     height: 30px;
     top: 30px;
     right: 30px;
@@ -39,19 +40,11 @@ export const Content = styled.div`
   margin-top: 80px;
 `
 
-export const Redes = styled.section`
-  margin-top: 10px;
-
-  ul {
-    display: flex;
-  }
-`
-
 export const Opcao = styled.nav`
   a {
     display: block;
     border-top: 0.1px solid white;
-    color: white;
+    color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
