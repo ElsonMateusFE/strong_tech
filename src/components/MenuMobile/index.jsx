@@ -13,7 +13,7 @@ const MenuMobile = () => {
   })
 
   return (
-    <Container>
+    <Container isVisible={sidebar}>
       <FaBars onClick={showSiderbar} />
       {sidebar && <Sidebar active={setSidebar} />}
     </Container>
