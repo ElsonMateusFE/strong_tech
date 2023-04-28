@@ -17,7 +17,7 @@ export const Container = styled.div<Props>`
 
   > svg {
     position: absolute;
-    color: #141414;
+    color: rgba(0, 0, 0, 0.6);
     height: 30px;
     top: 30px;
     right: 30px;
@@ -43,11 +43,14 @@ export const Content = styled.div`
 export const Opcao = styled.nav`
   a {
     display: block;
-    border-top: 0.1px solid white;
     color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
     padding: 20px 20px;
+
+    &:hover {
+      border-left: 5px solid red;
+    }
   }
 `
